@@ -3,15 +3,15 @@ Connect‑X Reinforcement Learning Agents
 This repository provides implementations of reinforcement‑learning agents for Connect‑4 and Connect‑5 games, leveraging neural networks and Monte Carlo Tree Search (MCTS). It includes board and game logic, two CNN architectures (NetworkA and NetworkB), a neural‑network strategy (NNStrategy), an MCTS opponent, and training scripts that pit the learned agent against the MCTS baseline.
 
 📂 Repository Structure
-├── Board.py             # Connect‑4 board logic (6×7)
-├── Game.py              # Game engine with turn management and win detection
-├── MCTS.py              # Monte Carlo Tree Search implementation (MctsStrategy)
-├── NNStrategy.py        # Temporal‑difference‑style training strategy
-├── NetworkA.py          # CNN #1 for value estimation (smaller filters)
-├── NetworkB.py          # CNN #2 for value estimation (larger filters)
-├── networkA_trials.py   # Train NetworkA vs MCTS on Connect‑4
-├── networkB_trials.py   # Train NetworkB vs MCTS on Connect‑4
-└── connect5.py          # Train NetworkB vs MCTS on Connect‑5 (8×9 board)
+Board.py             # Connect‑4 board logic (6×7)
+Game.py              # Game engine with turn management and win detection
+MCTS.py              # Monte Carlo Tree Search implementation (MctsStrategy)
+NNStrategy.py        # Temporal‑difference‑style training strategy
+NetworkA.py          # CNN #1 for value estimation (smaller filters)
+NetworkB.py          # CNN #2 for value estimation (larger filters)
+networkA_trials.py   # Train NetworkA vs MCTS on Connect‑4
+networkB_trials.py   # Train NetworkB vs MCTS on Connect‑4
+connect5.py          # Train NetworkB vs MCTS on Connect‑5 (8×9 board)
 
 Requirements & Installation
 
